@@ -182,7 +182,7 @@ commit and annotated tag.
   uses: oWretch/create-signed-commit@v1.0.0
   with:
     token: ${{ secrets.APP_TOKEN }}
-    commit-message: "chore(release): ${{ steps.psr.outputs.version }} [skip ci]"
+    commit-message: 'chore(release): ${{ steps.psr.outputs.version }} [skip ci]'
     files: |
       pyproject.toml
       uv.lock
@@ -191,9 +191,9 @@ commit and annotated tag.
   uses: oWretch/create-signed-commit@v1.0.0
   with:
     token: ${{ secrets.APP_TOKEN }}
-    commit-message: "Tagging ${{ steps.psr.outputs.version }}"
+    commit-message: 'Tagging ${{ steps.psr.outputs.version }}'
     tag-name: v${{ steps.psr.outputs.version }}
-    tag-message: "Release v${{ steps.psr.outputs.version }}"
+    tag-message: 'Release v${{ steps.psr.outputs.version }}'
     commit-sha: ${{ steps.commit.outputs.commit-sha }}
     fail-on-empty: false
 

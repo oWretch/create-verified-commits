@@ -39,5 +39,3 @@ jobs:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           RELEASE_APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: npx semantic-release
-
-

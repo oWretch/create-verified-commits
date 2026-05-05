@@ -23,13 +23,13 @@ npm run build     # compile to dist/index.js via ncc
 
 All commits must follow [Conventional Commits](https://www.conventionalcommits.org/). This is enforced by `commitlint` in CI. Common prefixes:
 
-| Prefix | When to use |
-|---|---|
-| `feat:` | New input, output, or behaviour |
-| `fix:` | Bug fix |
-| `docs:` | Documentation only |
-| `chore:` | Tooling, dependencies, config |
-| `test:` | Test additions or changes |
+| Prefix      | When to use                               |
+| ----------- | ----------------------------------------- |
+| `feat:`     | New input, output, or behaviour           |
+| `fix:`      | Bug fix                                   |
+| `docs:`     | Documentation only                        |
+| `chore:`    | Tooling, dependencies, config             |
+| `test:`     | Test additions or changes                 |
 | `refactor:` | Code restructure without behaviour change |
 
 Use `!` for breaking changes: `feat!: rename token input`.
