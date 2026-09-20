@@ -28,7 +28,7 @@
     "@typescript-eslint/parser": "^8.70.0",
     "@vercel/ncc": "^0.45.0",
     "eslint": "^10.10.0",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.8",
     "semantic-release": "^25.0.9",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
     "typescript-latest": "npm:typescript@^7.0.2",
