@@ -1,6 +1,6 @@
 {
   "name": "create-signed-commit",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "GitHub Action to create a signed commit and optionally a signed tag using a GitHub App token.",
   "main": "dist/index.js",
   "scripts": {
